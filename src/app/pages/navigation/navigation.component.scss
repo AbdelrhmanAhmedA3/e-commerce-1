@@ -1,0 +1,6 @@
+@use "../../../styles/abstracts/mixin.scss" as *;
+.border-bottom-scaleX {
+  text-decoration: none;
+  color: white;
+  @include underline-transtion(1.1);
+}

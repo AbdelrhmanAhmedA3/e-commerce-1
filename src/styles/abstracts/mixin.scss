@@ -1,0 +1,17 @@
+@mixin underline-transtion($width) {
+  &::after {
+    content: "";
+    display: block;
+    bottom: 0;
+    left: 0;
+    height: 0.2rem;
+    background-color: red;
+    transform: scaleX(0);
+    transition: 0.2s transform;
+  }
+  &:hover {
+    &::after {
+      transform: scaleX($width);
+    }
+  }
+}

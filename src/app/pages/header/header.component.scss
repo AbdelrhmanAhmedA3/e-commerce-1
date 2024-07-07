@@ -1,0 +1,47 @@
+$search-bar-height: 2.5em;
+$search-bar-bg: #828282;
+
+nav {
+  .navbar-brand {
+    background-image: linear-gradient(
+      45deg,
+      #ffb3ba,
+      #ff7e74,
+      #3b82f6,
+      #c084fc,
+      #db2777
+    );
+    color: transparent;
+    -webkit-background-clip: text; /* Edge, Chrome */
+    background-clip: text; /* Safari, FF */
+    animation: gradientAnimation 2s linear infinite;
+    animation-direction: alternate;
+    background-size: 300% 100%;
+  }
+  .search-box {
+    &::placeholder {
+      color: #000;
+      transition: 0.3s;
+    }
+
+    &:focus::placeholder {
+      opacity: 0;
+    }
+  }
+
+  .search-buttom {
+    height: $search-bar-height;
+    background-color: $search-bar-bg;
+  }
+  .outline {
+    outline-style: unset;
+  }
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0;
+  }
+  to {
+    background-position: 100%;
+  }
+}

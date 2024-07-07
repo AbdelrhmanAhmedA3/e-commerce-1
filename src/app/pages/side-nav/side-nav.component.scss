@@ -1,0 +1,12 @@
+@use "../../../styles/abstracts/mixin.scss" as *;
+
+.accordion {
+  margin-top: 1em;
+  padding: 0.6em;
+  box-shadow: 1px 0px 14px 0px lightgrey;
+  height: 97%;
+  border-radius: 1em;
+}
+a {
+  @include underline-transtion(0.6);
+}

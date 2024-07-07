@@ -1,0 +1,77 @@
+<section>
+  <header class="bg-dark shadow">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <section class="container-fluid">
+        <h1 class="navbar-brand fw-bolder fs-3 mx-0">eStore</h1>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-sliders"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between order-2 order-lg-1"
+          id="navbarSupportedContent"
+        >
+          <div class="d-flex mb-lg-0 gap-3 order-1 order-lg-2 mb-2">
+            <div class="text-white d-flex align-items-center flex-wrap">
+              <i class="fa-regular fa-circle-user mx-2 fs-5"></i>
+              <article>
+                <a
+                  class="text-white text-decoration-none fw-semibold"
+                  [routerLink]="'/sigin-in' | localize"
+                  >Log in |
+                </a>
+
+                <a
+                  class="text-white text-decoration-none fw-semibold"
+                  [routerLink]="'/' | localize"
+                  >Sign up |
+                </a>
+              </article>
+              <article class="text-white d-flex align-items-end">
+                <i class="fa-regular fa-heart mx-2"></i>
+                <i class="fa-solid fa-cart-plus mx-2"></i> |
+              </article>
+
+              <button
+                class="bg-transparent border-0 text-white px-0 mx-1"
+                (click)="switchLang()"
+              >
+                English
+              </button>
+            </div>
+          </div>
+          <div class="flex-grow-1 d-flex justify-content-center">
+            <form
+              autocomplete="off"
+              class="col-12 col-lg-6 bg-white d-flex"
+              aria-hidden="true"
+            >
+              <select name="" id="" class="search-buttom outline">
+                <option>Men</option>
+                <option>Women</option>
+                <option>Kids</option>
+              </select>
+              <input
+                class="form-control shadow-none search-box bg-white text-black border-0 flex-grow-1"
+                placeholder="Search..."
+                autocomplete="off"
+                type="search"
+              />
+              <button class="search-buttom border-0 px-3">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </nav>
+  </header>
+</section>

@@ -1,0 +1,721 @@
+{
+  "currency": "جنيه مصري",
+  "Submitted": "تم الإرسال",
+  "In_Process": "قيد المعالجة",
+  "Rejected": "مرفوض",
+  "NeedAction": "بحاجة إلى اتخاذ إجراء",
+  "Approved": "تمت الموافقة عليه",
+  "validations": {
+    "fullName": {
+      "required": "الاسم الكامل مطلوب"
+    },
+    "cancellationType": {
+      "required": "نوع الإلغاء مطلوب"
+    },
+    "addContract": {
+      "required": "يرجى تحميل العقد مطلوب"
+    },
+    "password": {
+      "required": "من فضلك أدخل كلمة السر الخاصة بحسابك",
+      "pattern": "يجب أن تحتوي كلمة المرور على (حرف كبير - حرف صغير - رقم - حرف خاص - 8 أحرف على الأقل)."
+    },
+    "newName": {
+      "required": "الاسم الجديد مطلوب"
+    },
+    "reasonControl": {
+      "required": "يجب عليك تحديد السبب"
+    },
+    "attachmentReceipt": {
+      "required": "الإيصال  مطلوب"
+    },
+    "DegreeType": {
+      "required": "نوع الدرجة المطلوبة"
+    },
+    "appointment": {
+      "required": "وقت الموعد وتاريخه مطلوبان"
+    },
+    "signAppointment": {
+      "required": "موعد امضاء العقد مطلوب"
+    },
+    "paymentAppointment": {
+      "required": "مطلوب موعد للدفع"
+    },
+    "branch": {
+      "required": "الرجاء اختيار موقع الفرع"
+    },
+    "checkType": {
+      "required": "الرجاء اختيار نوع الشيك"
+    },
+    "checkNumber": {
+      "required": "الرجاء اختيار رقم الشيك"
+    },
+    "newNationalId": {
+      "required": "الرقم الوطني الجديد مطلوب",
+      "pattern": "الرقم الوطني الجديد يجب أن يكون أرقام فقط"
+    },
+    "NewMobileNo": {
+      "required": "رقم الجوال الجديد مطلوب",
+      "pattern": "رقم الجوال الجديد يجب أن يكون أرقام فقط"
+    },
+    "newAddress": {
+      "required": "العنوان الجديد مطلوب"
+    },
+    "idType": {
+      "required": "نوع الهوية مطلوب"
+    },
+    "clearanceAttach": {
+      "required": "مطلوب مرفق التخليص"
+    },
+    "checkBox": {
+      "required": "يشترط الموافقة على الشروط والأحكام"
+    },
+    "idNumber": {
+      "required": "رقم الهوية مطلوب",
+      "pattern": "رقم الهوية غير صالح. يجب أن يكون 14 رقمًا"
+    },
+    "contract": {
+      "required": "مطلوب نسخة من صورة العقد"
+    },
+    "passport": {
+      "required": "مطلوب نسخة من جواز السفر"
+    },
+    "frontScreen": {
+      "required": "الوجه الأمامي مطلوبة"
+    },
+    "backScreen": {
+      "required": "الوحه الخلفي مطلوبة"
+    },
+    "passportScreen": {
+      "required": "صوره للجواز مطلوبة"
+    },
+    "mobile": {
+      "required": "رقم الهاتف مطلوب",
+      "wrongNumber": "الرجاء إدخال رقم صحيح"
+    },
+    "required": "هذا الحقل مطلوب",
+    "email": "الرجاء إدخال بريد إلكتروني صالح",
+    "attachRequiredFile": "يرجى تقديم عقد حجز الوحدة أو عقد الوحدة",
+    "loading": "يرجى الانتظار حتى يتم تحميل الملف",
+    "login": {
+      "confirmPassword": "لم يتطابق كلمة المرور"
+    },
+    "reason": "السبب مطلوب",
+    "paymentKey": "من فضلك"
+  },
+  "landingPage": {
+    "instructionsHeader": {
+      "title": "تعليمات",
+      "subTitle": "كيفية استخدام منصة الخدمات الإلكترونية لمجموعة طلعت مصطفى",
+      "desc": "يقدم الفيديو التعليمي الخاص بنا دليلاً خطوة بخطوة حول كيفية استخدام منصة الخدمات الإلكترونية الخاصة بمجموعة طلعت مصطفى. يغطي الفيديو كل شيء بدءًا من إضافة الوحدات وإدارتها وحتى تقديم طلبات الخدمة وتتبعها."
+    },
+    "howItWorksHeader": {
+      "title": "كيف تعمل",
+      "subTitle": "تحقق من مقاطع الفيديو التعليمية الخاصة بنا لكل خطوة",
+      "desc": "يقدم الفيديو التعليمي الخاص بنا دليلاً خطوة بخطوة حول كيفية استخدام منصة الخدمات الإلكترونية الخاصة بمجموعة طلعت مصطفى."
+    },
+    "ourservicesHeader": {
+      "title": "خدماتنا الإلكترونية",
+      "subTitle": "إدارة منزلك بكل سهولة",
+      "desc": "يقدم الفيديو التعليمي الخاص بنا دليلاً خطوة بخطوة حول كيفية استخدام منصة الخدمات الإلكترونية الخاصة بمجموعة طلعت مصطفى. يغطي الفيديو كل شيء بدءًا من إضافة الوحدات وإدارتها وحتى تقديم طلبات الخدمة وتتبعها. سواء كنت مستخدمًا جديدًا أو تحتاج فقط إلى تجديد معلوماتك، فإن الفيديو الخاص بنا يجعل من السهل البدء باستخدام منصة الخدمات الإلكترونية الخاصة بنا."
+    },
+    "carouselData": {
+      "subTitle": "مشاريعنا",
+      "title": "نور - فجر جديد في الحياة العصرية",
+      "desc": "نور هو مشروع سكني حديث من مجموعة طلعت مصطفى يقدم مستوى جديد من المعيشة في قلب المدن الرئيسية في مصر. مع التركيز على تنمية المجتمع، توفر نور مجموعة من خيارات السكن التي تلبي احتياجات أنماط الحياة والتفضيلات المختلفة. من الشقق الفسيحة إلى الاستوديوهات المريحة، تقدم نور مجموعة متنوعة من الخيارات التي تناسب احتياجاتك.",
+      "loadingBtn": "اعرف المزيد عن نور"
+    },
+    "FAQSHeader": {
+      "title": "الأسئلة الشائعة",
+      "subTitle": "أسئلة مكررة",
+      "desc": "يقدم الفيديو التعليمي الخاص بنا دليلاً خطوة بخطوة حول كيفية استخدام منصة الخدمات الإلكترونية الخاصة بمجموعة طلعت مصطفى. يغطي الفيديو كل شيء بدءًا من إضافة الوحدات وإدارتها وحتى تقديم طلبات الخدمة وتتبعها. سواء كنت مستخدمًا جديدًا أو تحتاج فقط إلى تجديد معلوماتك، فإن الفيديو الخاص بنا يجعل من السهل البدء باستخدام منصة الخدمات الإلكترونية الخاصة بنا."
+    },
+    "moreHelp": {
+      "title": "مزيد من المساعدة ؟",
+      "desc": "يمكن للمستخدمين إدارة تفاصيلهم الشخصية وعرض سجل الخدمة وتحديث إعدادات حساباتهم. يوفر الفيديو التعليمي الخاص بنا دليلاً خطوة بخطوة حول كيفية استخدام منصة الخدمات الإلكترونية الخاصة بمجموعة طلعت مصطفى. يغطي الفيديو كل شيء بدءًا من إضافة الوحدات وإدارتها وحتى تقديم طلبات الخدمة وتتبعها.",
+      "btnLabel": "تفاصيل أكثر"
+    }
+  },
+  "dashboard": {
+    "myUnits": "وحداتي",
+    "quickInfo": "معلومات سريعة",
+    "notfications": "إشعارات",
+    "ourServices": "خدماتنا",
+    "moreDetails": "المزيد من التفاصيل",
+    "addNewUnit": "إضافة وحدة جديدة",
+    "addNewUnit_B": "أضف وحدتك بسهولة وأعطها اسمًا لوضع إشارة مرجعية عليها",
+    "payNow": "ادفع الآن",
+    "printReceit": "اطبع الايصال",
+    "allUnits": "كل الوحدات",
+    "next": "التالي",
+    "noActions": "لا توجد إجراءات",
+    "allUnits_B": "تحقق من جميع الوحدات الموجودة لديك وقم بالتصفية باستخدام الإجراءات السريعة"
+  },
+  "addUnit": {
+    "addNewUnit": "أضف وحدة جديدة",
+    "unitRequest": "طلب الوحدة",
+    "editUnit": "تحرير وحدتك",
+    "unitType": "نوع الوحدة",
+    "unit": "الوحدة",
+    "addAttachment": "إرفاق المستندات للتحقق",
+    "type": "نوع الملف",
+    "description": "وصف",
+    "file": "ملف",
+    "uploadFile": "رفع ملف",
+    "viewFile": "استعراض الملف",
+    "viewFiles": "استعراض الملفات",
+    "successSummary": "عمل ناجح",
+    "errorSummary": "خطأ",
+    "addedSuccessfully": "تم أضافة الوحدة بنجاح",
+    "editSuccessfully": "تم تعديل الوحدة بنجاح",
+    "failedToAdd": "فشل في إضافة الوحدة",
+    "failedToEdit": "فشل في تعديل الوحدة",
+    "invalidUnitId": "رقم الوحدة غير صحيح",
+    "unitContract": {
+      "label": "عقد الوحدة",
+      "desc": "مسح العقد بالكامل وارفاق ملف PDF واحد"
+    },
+    "attorney": {
+      "label": "محامي",
+      "desc": "مسح العقد بالكامل وارفاق ملف PDF واحد"
+    },
+    "unitReservation": {
+      "label": "حجز الوحدة",
+      "desc": "مسح العقد بالكامل وارفاق ملف PDF واحد"
+    },
+    "otherFiles": {
+      "label": "ملفات أخرى",
+      "desc": "تحقق من المرفقات المطلوبة"
+    },
+    "attach": "ملفات",
+    "error": {
+      "1": "هذه الوحده موجودة من قبل",
+      "updateData": "Please update required file"
+    },
+    "close": "إغلاق",
+    "requiredAttachment": "المستندات المطلوبة",
+    "checkRequiredAttachments": "التحقق من المستندات المطلوبة",
+    "filesMaximumLength": "غير مسموح بتحميل أكثر من 10 ملفات"
+  },
+  "unitDetails": {
+    "unitType": "نوع الوحدة",
+    "personalInfo": "معلومات شخصية",
+    "group": "المجموعة",
+    "building": "المبنى",
+    "unit": "الوحدة",
+    "seeMore": "رؤية المزيد",
+    "seeLess": "رؤية أقل",
+    "status": "الحالة",
+    "delivered": "تم التسليم",
+    "allUnits": "كل الوحدات",
+    "downloadModel": "تحميل كتيب النموذج",
+    "legalStatus": "الوضع القانوني",
+    "reservationDate": "تاريخ الحجز",
+    "contractNumber": "رقم العقد",
+    "offerNumber": "رقم العرض",
+    "unitSize": "حجم الوحدة",
+    "gardenSize": "حجم الحديقة",
+    "clubValue": "قيمة النادي",
+    "unitValue": "قيمة الوحدة",
+    "contractStatus": "حالة العقد",
+    "contractDeliveryDate": "تاريخ تسليم العقد",
+    "overduePayment": "الدفعات المتأخرة",
+    "totalPenalty": "إجمالي الغرامة",
+    "totalPaidAmount": "إجمالي المبلغ المدفوع",
+    "remainingAmount": "المبلغ المتبقي",
+    "upcomingInstallments": "الأقساط القادمة",
+    "totalAmount": "المبلغ الإجمالي",
+    "overdueForBounced": "إجمالي المتأخر للشيكات الصادرة",
+    "penaltyForBounced": "إجمالي العقوبات للشيكات الصادرة",
+    "fullName": "الاسم الكامل",
+    "nameTip": "إنشاء طلب لتغيير اسمك",
+    "address": "العنوان",
+    "addressTip": "إنشاء طلب لتغيير عنوانك",
+    "idNumber": "رقم الهوية / جواز السفر",
+    "idNumberTip": "إنشاء طلب لتغيير رقم الهوية / جواز السفر",
+    "email": "عنوان البريد الإلكتروني",
+    "emailTip": "إنشاء طلب لتغيير عنوان البريد الإلكتروني",
+    "mobile": "الجوال",
+    "mobileTip": "إنشاء طلب لتغيير رقم الجوال",
+    "occupation": "الوظيفة",
+    "maritalStatus": "الحالة الاجتماعية",
+    "numberOfChildren": "عدد الأطفال",
+    "successEditPersonalInfo": "تم تعديل المعلومات الشخصية بنجاح",
+    "emptyTable": "لا توجد بيانات متاحة",
+    "payNow": "ادفع الآن",
+    "unitOverDuePayment": {
+      "overduePaymentTitle": "الدفعات المتأخرة",
+      "DueDate": "تاريخ الاستحقاق",
+      "PaymentType": "نوع الدفع",
+      "RemainingAmount": "المبلغ المتبقي",
+      "PenaltyAmount": "مبلغ الغرامة",
+      "TotalAmount": "المبلغ الإجمالي",
+      "bankCharge": "رسوم البنك",
+      "status": "الحالة"
+    },
+    "unitDuePayment": {
+      "duePaymentTitle": "المدفوعات القادمة",
+      "DueDate": "تاريخ الاستحقاق",
+      "PaymentType": "نوع الدفع",
+      "RemainingAmount": "المبلغ المتبقي",
+      "TotalAmount": "المبلغ الإجمالي"
+    },
+    "unitStatement": {
+      "statementHeaderTitle": "إيصالات كشوفات الحساب",
+      "downloadStatement": "تحميل البيانات",
+      "DueDate": "تاريخ الاستحقاق",
+      "InstallmentType": "نوع القسط",
+      "Description": "الوصف",
+      "Amount": "المبلغ",
+      "PaidAmount": "المبلغ المدفوع",
+      "RemainingAmount": "المبلغ المتبقي",
+      "PenaltyAmount": "مبلغ الغرامة",
+      "Status": "الحالة"
+    },
+    "dueDate": "تاريخ الاستحقاق",
+    "checkNumber": "رقم الشيك",
+    "amount": "كمية"
+  },
+  "profile": {
+    "Verify": "التحقق",
+    "editYourProfile": "تعديل ملفك الشخصي",
+    "changePassword": "تغيير كلمة المرور",
+    "passwordTilte": "كلمة المرور",
+    "notifications": "الإشعارات",
+    "oldPassword": "كلمة المرور القديمة",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmNewPass": "تأكيد كلمة المرور الجديدة",
+    "myDetails": "تفاصيلي",
+    "userName": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "IDType": "نوع الهوية",
+    "IDNumber": "رقم الهوية",
+    "passport": "الباسبور",
+    "FrontScreen": " رقم الصورة الأمامية",
+    "BackScreen": "رقم الصورة الخلفية ",
+    "IdentityVerification": "التحقق من الهوية",
+    "NationalIDAttach": "ورقةالهوية الوطنية",
+    "mobileNumber": "رقم الهاتف المحمول",
+    "address": "العنوان",
+    "jobTitle": "المسمي الوظيفي",
+    "btnCancel": "إلغاء",
+    "btnSave": "حفظ",
+    "unitDetails": "معلومات الوحده",
+    "building": "المبني",
+    "floor": "الطابق",
+    "flat": "الشقه",
+    "country": "البلد",
+    "payment": "الدفع",
+    "visa": "فيزا",
+    "profileTitle": "الحساب "
+  },
+  "requestDetails": {
+    "EGP": "جم",
+    "requestFees": "رسوم الطلب",
+    "requestDetails": "تفاصيل الطلب",
+    "clearanceAttach": "مرفق التخليص",
+    "attachmentReceipt": "Attachment Receipt",
+    "maintenancePayment": "دفع الصيانة",
+    "downPayment": "دفعة مبدئية",
+    "maintenanceBtn": "Pay MDP on City Pay",
+    "creationDate": "تاريخ الإنشاء",
+    "requestNo": "رقم الطلب",
+    "requestType": "نوع الطلب",
+    "requestBranch": "الفرع",
+    "ownerDegree": "درجة المالك الأول",
+    "degreeType": "نوع الدرجة",
+    "sourceBranch": "Source Branch",
+    "targetBranch": "Target Branch ",
+    "requestAppointment": "الميعاد",
+    "name": "الاسم",
+    "payment": "دفع",
+    "newPeriod": "فترة جديدة",
+    "budget": "ميزانية",
+    "onlinePaymkent": "الدفع عبر الإنترنت",
+    "note": "ملحوظة",
+    "newName": "اسم جديد",
+    "newAddress": "عنوان جديد",
+    "newMobile": "رقم الجوال الجديد",
+    "newNationalId": "رقم الهوية الوطنية الجديد",
+    "nationalId": "رقم الهوية الوطنية",
+    "note_b": "أحتاج إلى تأجيل أقساطي لمدة 3 سنوات ، كيف يمكنني ذلك؟",
+    "personalDetails": "تفاصيل شخصية",
+    "ownerName": "اسم المالك",
+    "phoneNumber": "رقم الهاتف",
+    "emailAddress": "عنوان البريد الإلكتروني",
+    "location": "موقع",
+    "unitDetails": "تفاصيل الوحدة",
+    "project": "مشروع",
+    "groupNo": "رقم المجموعة",
+    "buildingNo": "رقم المبنى",
+    "unitNo": "رقم الوحدة",
+    "unitType": "نوع الوحدة",
+    "adminRespond": "رد المشرف",
+    "customerRespond": "رد العميل",
+    "requestRespond": "طلب الرد",
+    "addYourRespond": "أضافة رد",
+    "yourRespond": "جوابك",
+    "btnSend": "ارسال",
+    "chequeNumber": "رقم الشيك",
+    "paymentKey": "المدفوعات",
+    "dueDate": "تاريخ الاستحقاق",
+    "appointmentRefund": "موعد استرداد الأموال",
+    "condType": "نوع الحاله",
+    "totalAmount": "اجمالي المبلغ",
+    "remainingAmount": "المبلغ المتبقي",
+    "penaltyAmount": "الغرامه",
+    "BankCharge": "رسوم البنك",
+    "reasonId": "السبب",
+    "discountAmount": "مبلغ الخصم",
+    "requestDiscount": "طلب خصم"
+  },
+  "meta-descriptions": {
+    "home": "Your easy gateway to pay your Maintenance and utilities fees for your unit in TMG projects (Madinaty, Noor, Al Rehab, Privado, Celia, Noor).",
+    "M": "Madinaty's well-designed and detailed master plan was the result of a collaborative effort between three top U.S. design firms: HHCP, SWA, and SASKI.",
+    "R": "Al Rehab is the hub of New Cairo, located only 10 minutes away from Heliopolis and Nasr City and 20 minutes from Downtown Cairo.",
+    "C": "Celia, which means 'heaven' in Latin, is an innovative approach to life Integration addressing all the life demands with services, features.",
+    "O": "Privado is the exclusive community of Madinaty, developed to provide its residents with integrated luxury and ultimate privacy homes, flourished.",
+    "H": "Noor is a smart, eco-friendly city spanning over 5,000 feddans, it's well-designed and represents a new model of the twenty-first century’s cities."
+  },
+  "about": {
+    "tittle": "نبذة عننا",
+    "sub": "اعرف المزيد عن خدمات Tmg الإلكترونية",
+    "heroParagraph": "يقدم الفيديو التعليمي الخاص بنا دليلاً خطوة بخطوة حول كيفية استخدام منصة الخدمات الإلكترونية الخاصة بمجموعة طلعت مصطفى.",
+    "tittle2": "عن مجموعة طلعت مصطفى",
+    "tittle3": "عن مجموعة طلعت مصطفى",
+    "par2-mob": "مجموعة طلعت مصطفى (TMG)، مجموعة رائدة تركز بشكل خاص على العقارات",
+    "Aboutpar": "مجموعة طلعت مصطفى (TMG)، مجموعة رائدة تركز بشكل خاص على التطوير العقاري، ولها سجل حافل في إنشاء مجتمعات كبيرة ونابضة بالحياة ومتنوعة وتطوير الضيافة، وتوفير تجارب عالية الجودة مصحوبة بوسائل راحة رائعة، مع أكثر من 50 سنوات من الخبرة.\n\n تقف مجموعة طلعت مصطفى اليوم كشركة صناعية عملاقة تقدم تطورات عالمية المستوى عبر جميع فئات الأصول العقارية.\n\n انطلاقًا من رؤية حادة وفلسفة فريدة من نوعها، قامت مجموعة طلعت مصطفى بتشكيل المشهد الحضري من خلال التطوير مدن ومجتمعات غير مهمة ومكتفية ذاتيًا، ومجموعة من المشاريع السكنية والتجارية ومشاريع الضيافة في جميع أنحاء البلاد.\n\nتتفوق TMG في إنشاء نموذج فريد للحياة المجتمعية وتلتزم بالحفاظ على أعلى معايير الجودة بينما تسعى باستمرار إلى الريادة أسلوب حياة جديد مقاوم للمستقبل مع وجود الناس في جوهره.",
+    "showButton": "عرض المزيد",
+    "learnButton": "تعلم أكثر",
+    "m-v": "الرسالة والرؤية"
+  },
+  "contact_us": {
+    "hero": {
+      "title": "المعلومات",
+      "subTitle": "معلومات الاتصال",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque elit non lectus dignissim,",
+      "contact_btn": "اتصل بنا"
+    },
+    "form": {
+      "title": "مشروع المملكة العربية السعودية",
+      "subTitle": "ارسال رساله",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque elit non lectus dignissim",
+      "joinUs": "انضم الينا"
+    },
+    "details": {
+      "phoneNumber": "رقم الهاتف",
+      "email": "البريد الالكتروني",
+      "location": "الموقع",
+      "workingHours": "ساعات العمل",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "contactInfo": "معلومات الاتصال"
+    }
+  },
+  "titles": {
+    "home": "TMG | Maintenance & Utilities Payment Gateway",
+    "M": "Madinaty | Maintenance & Utilities Payment Gateway",
+    "R": "Al Rehab City | Maintenance & Utilities Payment Gateway",
+    "C": "Celia | Maintenance & Utilities Payment Gateway",
+    "O": "Privado | Maintenance & Utilities Payment Gateway",
+    "H": "Noor | Maintenance & Utilities Payment Gateway"
+  },
+  "login-layout": {
+    "login": {
+      "info": "معلومات",
+      "verify": "التحقق",
+      "emailAddress": "عنوان البريد الإلكتروني",
+      "haveAccount": "Haven’t an Account?",
+      "login": "تسجيل الدخول",
+      "Login": "تسجيل الدخول",
+      "userName": "البريد الإلكتروني",
+      "registerHeader": "إنشاء حساب ",
+      "mobile": "رقم الهاتف",
+      "password": "كلمة المرور",
+      "register": "التسجيل",
+      "forgetPassword": "نسيت كلمة المرور",
+      "successLogin": "تم تسجيل الدخول بنجاح"
+    },
+    "register": {
+      "idType": "نوع الهوية",
+      "idNumber": "رقم الهوية",
+      "frontScreen": "الصوره  الأمامية",
+      "backScreen": "الصوره الخلفية",
+      "passportScreen": "صوره جواز السفر",
+      "uploadMessage": "لم يتم تحميل أي ملف حتى الآن.",
+      "login": "تسجيل الدخول",
+      "register": "التسجيل",
+      "fullName": "الاسم بالكامل",
+      "emailAddress": "عنوان البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "repeatPass": "اعد كلمة المرور",
+      "terms": "الموافقة على الشروط والأحكام",
+      "account": "هل لديك حساب؟",
+      "mobileTip": "يجب أن يتطابق رقم الهاتف المقدم مع الرقم المسجل في النظام",
+      "nationalIdTip": "يجب أن تكون بطاقة الهوية الوطنية أو جواز السفر المقدم متطابقة مع الرقم المسجل في النظام"
+    },
+    "forget-password": {
+      "forget-password": "نسيت كلمة المرور",
+      "reset": " نسيت كلمة المرور",
+      "back": "العودة إلى تسجيل الدخول",
+      "success-message": "لقد أرسلنا للتو رمزًا إلى رقم هاتفك"
+    },
+    "reset-password": {
+      "newPass": "كلمة سر جديدة",
+      "repeatPass": "اعد كلمة السر",
+      "message": "تم تغيير كلمة المرور الخاصة بك بنجاح"
+    },
+    "check-mail": {
+      "title": "راجع بريدك",
+      "verfication": "تم إرسال بريد إلكتروني للتحقق إلى",
+      "confirm": "يرجى تأكيد بريدك الإلكتروني وتسجيل الدخول مرة أخرى",
+      "resend": "إعادة إرسال",
+      "mail-resent": "تم إرسال بريد التحقق"
+    },
+    "otp": {
+      "title": "تحقق من الهاتف",
+      "subtitle": "تم إرسال الرمز إلى",
+      "resend-msg": "لم تتلق رمز؟ إعادة إرسال واحد جديد في",
+      "verify-btn": "تحقق",
+      "resend-btn": "إعادة إرسال رمز التحقق",
+      "wrong-otp": "OTP خاطئ",
+      "request-error": "خطأ في الطلب",
+      "token": "انتهت صلاحية الرمز",
+      "register": "تم تسجيل المستخدم بنجاح",
+      "enter-otp": "الرجاء إدخال الرمز"
+    }
+  },
+  "not-found": {
+    "title": "لا يمكن العثور على هذه الصفحة",
+    "subtitle": "نأسف ولكن الصفحة التي تبحث عنها غير موجودة أو تمت إزالتها أو تم تغيير الاسم أو أنها غير متاحة مؤقتًا",
+    "button": "اذهب الى الصفحه الرئيسية"
+  },
+  "admin-layout": {
+    "agree": "موافق ",
+    "header": {
+      "pages": "الصفحات",
+      "home": "الصفحة الرئيسية",
+      "paymentHistory": "تاريخ الدفع",
+      "requests": "طلباتي",
+      "myUnits": "وحداتي",
+      "projects": "المشاريع",
+      "logout": "تسجيل خروج",
+      "profile": "الصفحة الشخصية",
+      "language": "English",
+      "howItWorks": "كيفية العمل",
+      "faqs": "الاسئله الشائعه",
+      "about": "نبذة عنا",
+      "createAccount": "إنشاء حساب",
+      "dashboard": "لوحة التحكم"
+    },
+    "footer": {
+      "ourServices": {
+        "ourServices": "خدماتنا",
+        "myUnits": "وحداتي",
+        "addYourUnit": "أضف وحدتك",
+        "myRequests": "طلباتي",
+        "paymentHistory": "سجل الدفع"
+      },
+      "paymentMethods": {
+        "paymentMethods": "وسائل الدفع"
+      },
+      "needHelp": {
+        "needHelp": "تحتاج مساعدة؟",
+        "callMe": "اتصل بنا"
+      },
+      "social": {
+        "social": "تواصل معنا",
+        "facebook": "فيسبوك",
+        "instagram": "إنستغرام",
+        "linkedin": "لينكدإن",
+        "youtube": "يوتيوب",
+        "twitter": "تويتر"
+      },
+      "copyRights": {
+        "rights": "حقوق مجموعة طلعت مصطفى - كل الحقوق محفوظة",
+        "terms": "الشروط والأحكام",
+        "privacy": "سياسة الخصوصية"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "كيفية العمل ",
+    "subTitle": "نحن نفعل الأشياء بشكل مختلف",
+    "desc": "يقدم الفيديو التعليمي الخاص بنا دليلاً خطوة بخطوة حول كيفية استخدام منصة الخدمات الإلكترونية الخاصة بمجموعة طلعت مصطفى.",
+    "tabview": {
+      "cancellation": "الإلغاء",
+      "contract": "عقد",
+      "deliverables": "التسليمات",
+      "collections": "مجموعات",
+      "waiver": "تنازل",
+      "transfer": "نقل",
+      "paymentSystem": "نظام الدفع",
+      "onlineBanking": "الخدمات المصرفية عبر الإنترنت",
+      "checks": "الشيكات",
+      "departments": "الإدارات"
+    },
+    "HowItWorksDetailsAndInfo": {
+      "title": "التفاصيل والمعلومات"
+    }
+  },
+  "pages": {
+    "requests": {
+      "errors": {
+        "1": "هذا الطلب موجودة من قبل"
+      },
+      "tittle": "طلب",
+      "tittle2": "سجل الطلبات",
+      "requestHistory": {
+        "RequestId": "رقم الطلب",
+        "RequestType": "نوع الطلب",
+        "GroupNo": "رقم المجموعه",
+        "BuildingNo": "رقم المبني",
+        "UnitNo": "رقم الوحده",
+        "Status": "الحاله",
+        "MoreDetails": "تفاصيل اكثر"
+      },
+      "reason": "السبب",
+      "requestForms": {
+        "keepClub": "حافظ على شراكة النادي",
+        "AgreeToConditions": "الموافقة على الشروط والأحكام",
+        "selectUnit": "حدد الوحدة",
+        "refundType": "نوع الاسترداد",
+        "cancellationType": "نوع الإلغاء",
+        "selectUnitId": "حدد معرف الوحدة",
+        "ReqType": "نوع الطلب",
+        "RequestTypePlaceHolder": "نوع الطلب",
+        "Select": "اختار",
+        "salesAppointment": " موعد الاجتماع",
+        "signAppointment": "موعد امضاء العقد",
+        "appointmentForPayment": "تحديد موعد للدفع",
+        "changePaymentFor": "تغيير الدفع",
+        "SelectBranch": "حدد الفرع",
+        "SelectPayment": "حدد الدفع",
+        "selectCheckNum": "حدد رقم الشيك",
+        "selectCheckType": "حدد نوع الشيك",
+        "Attachments": "المرفقات",
+        "PaymentReceipt": "إيصال الدفع",
+        "Selectreason": "حدد السبب",
+        "addAttorney": "إضافة مستندات",
+        "addContract": "أضف العقد",
+        "submit": "تأكيد",
+        "resubmit": "طلب مره أخرى",
+        "draft": "برجاء زيارة اقرب فرع من فروع طلعت مصطفى لتحديث بياناتك.",
+        "contract": "صورة العقد"
+      }
+    }
+  },
+  "reusable-components": {
+    "currency": "ج.م.",
+    "back-btn": "عوده",
+    "close": "اغلق",
+    "bank": {
+      "cancel": "الغاء",
+      "title": "هل انت متاكد؟",
+      "yes": "نعم",
+      "no": "لا"
+    },
+    "cities": {
+      "M": "مدينتي",
+      "R": "مدينة الرحاب",
+      "O": "بريفادو",
+      "C": "سيليا",
+      "H": "نور"
+    },
+    "unit-type": {
+      "1": "فيلا",
+      "2": "شقه"
+    },
+    "Id-type": {
+      "national-id": "الهوية الوطنية",
+      "passport": "جواز سفر"
+    },
+    "select-unit": {
+      "buildingNo-input-label": "مبني"
+    },
+    "pay-amount": {
+      "total-label": "المبلغ الإجمالي",
+      "partial-label": "المبلغ الجزئي"
+    },
+    "unit-info": {
+      "group": "المجموعة",
+      "building": "مبني",
+      "unit": "الوحدة",
+      "paid": "مدفوع",
+      "unit-type": "نوع الوحده"
+    },
+    "due-payment": {
+      "pay-btn": "ادفع الآن",
+      "maintenance": "استحقاق الصيانة",
+      "utilities": "رسوم المرافق",
+      "noPayment-maintenance": "لم يتم العثور على استحقاق الصيانة",
+      "noPayment-utilities": "لم يتم العثور على مرافق مستحقة",
+      "min-value-msg": "الحد الأدنى لمبلغ الدفع هو ",
+      "max-value-msg": "الحد الأقصى لمبلغ الدفع هو ",
+      "till-year-maint": " حتي سنة ",
+      "till-year-util": " حتي تاريخ "
+    },
+    "receipt": {
+      "title": "إيصال اونلاين",
+      "print": "طبع",
+      "project": "لإدارة المشاريع العقارية",
+      "stock": "شركة مساهمة مصرية",
+      "paymentReceipt": "إيصال الدفع",
+      "titleName": "تم استلام المبلغ أعلاه من السيد / السيدة:",
+      "customerNum": "رقم العميل:",
+      "pound": "جنيه",
+      "penny": "قرش",
+      "amount": "قيمة",
+      "only": "فقط",
+      "paidFor": "المبلغ المدفوع",
+      "paymentDate": "تاريخ الدفع"
+    }
+  },
+  "popups": {
+    "successfull": {
+      "title": "لقد تم إرسال طلبك بنجاح ",
+      "subtitle": "تم تقديم طلبك بنجاح وهو قيد التقدم",
+      "check": "التحقق من حالة الطلب الخاص بي",
+      "draft": "برجاء زيارة اقرب فرع من فروع طلعت مصطفى لتحديث بياناتك."
+    },
+    "payment": {
+      "title": "دفع",
+      "subtitle": "ادفع المبلغ المستحق من خلال طريقة الدفع التي تختارها هنا",
+      "pay-title": "طرق الدفع المتاحة",
+      "pay-btn": "ادفع"
+    },
+    "penaltyDiscount": {
+      "penalty_title": "طلب خصم الغرامة",
+      "penalty_title_p": " شوفان شوكولاتة شوكولاتة دونات البرقوق كعكة كعكة الشوكولاتة سوفليه. دنماركي حلو"
+    },
+    "procced": {
+      "title-early": "الخصم المبكر",
+      "title": "طلب خصم الغرامة",
+      "title_p": "يمكنك الحصول على هذا الخصم إذا دفعت هذا المبلغ الآن",
+      "penaltyAmount": "المبلغ الكلي",
+      "remainingAmount": "المبلغ المتبقي",
+      "discountAmount": "مبلغ الخصم",
+      "netAmount": "صافي المبلغ",
+      "btn_cancel": "إلغاء",
+      "discounted": "تم تطبيق الخصم"
+    }
+  },
+  "errors": {
+    "login": {
+      "1": "كلمة مرور خاطئة",
+      "2": "رقم هاتف خاطئ",
+      "3": "لم يتم التحقق من المستخدم"
+    },
+    "register": {
+      "1": "الهاتف موجود بالفعل",
+      "2": "المستخدم موجود بالفعل",
+      "3": "اقتراح غير جيد"
+    },
+    "forget-password": {
+      "1": "المستخدم غير متوفر"
+    },
+    "change-password": {
+      "1": "انتهت صلاحية الرمز المميز",
+      "2": "غير متطابق"
+    }
+  },
+  "back": "رجوع"
+}

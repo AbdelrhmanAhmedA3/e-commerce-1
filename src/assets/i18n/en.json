@@ -1,0 +1,717 @@
+{
+  "currency": "EGP",
+  "Submitted": "Submitted",
+  "In_Process": "In Process",
+  "Rejected": "Rejected",
+  "NeedAction": "Need Action",
+  "Approved": "Approved",
+  "validations": {
+    "fullName": {
+      "required": "Full Name is Required"
+    },
+    "newName": {
+      "required": "New Name is Required"
+    },
+    "refundType": {
+      "required": "You must determine the Refund"
+    },
+    "cancellationType": {
+      "required": "Cancellation Type is Required"
+    },
+    "addContract": {
+      "required": "Please Uploading Contract Is Required"
+    },
+    "appointment": {
+      "required": "Appointment is Required"
+    },
+
+    "signAppointment": {
+      "required": "Sign Appointment is Required"
+    },
+    "paymentAppointment": {
+      "required": "Appointment For Payment is Required"
+    },
+    "selectUnit": {
+      "required": "You must determine the Unit"
+    },
+    "reasonControl": {
+      "required": "Reason Type is Required"
+    },
+    "newNationalId": {
+      "required": "New National Id is Required",
+      "pattern": "The new national Id must be numbers only"
+    },
+    "DegreeType": {
+      "required": "DegreeType is Required"
+    },
+    "attachmentReceipt": {
+      "required": "Attachment ReceiptId is Required"
+    },
+    "newMobileNo": {
+      "required": "New Mobile Number Id is Required",
+      "pattern": "The new mobile number must be numbers only"
+    },
+    "newAddress": {
+      "required": "New Address is Required",
+      "max": "The maximum length of the title is 35 characters"
+    },
+    "password": {
+      "required": "Password is Required",
+      "minlength": "8+ characters minimum for password",
+      "pattern": "Password must contain (upper case - lower case - number - special character - least 8 characters.)"
+    },
+    "idType": {
+      "required": "Id Type Is Required"
+    },
+    "clearanceAttach": {
+      "required": "Clearance Attachment Is Required"
+    },
+    "checkBox": {
+      "required": "Agreeing to the terms and conditions is required"
+    },
+    "idNumber": {
+      "required": "Id Number Is Required",
+      "pattern": "The ID number is invalid. Must be 14 numbers"
+    },
+    "contract": {
+      "required": "A copy of the contract image is required"
+    },
+    "passport": {
+      "required": "A copy of the passport is required"
+    },
+    "frontScreen": {
+      "required": "Front Screen Is Required"
+    },
+    "backScreen": {
+      "required": "Back Screen Is Required"
+    },
+    "passportScreen": {
+      "required": "Passport Screen Is Required"
+    },
+    "branch": {
+      "required": "Branch Is Required"
+    },
+    "checkType": {
+      "required": "Please Choose Check Type"
+    },
+    "checkNumber": {
+      "required": "Please Choose Check Number"
+    },
+    "attachments": {
+      "required": "Attachments Is Required"
+    },
+
+    "mobile": {
+      "required": "Mobile Number is Required",
+      "wrongNumber": "Please Enter Valid Number"
+    },
+    "required": "This field is required",
+    "email": "Please Enter Valid Email",
+    "attachRequiredFile": "Please submit either a Unit Reservation or Unit Contract",
+    "loading": "Please wait until file uploaded",
+    "isLoadedEndError": "not ended yet",
+    "login": {
+      "confirmPassword": "Didn't match password",
+      "passwordLength": "Minimum length Should Be 8"
+    },
+    "pattern": "Invalid password. Ensure it meets the specified criteria",
+    "reason": "Reason field is required",
+    "paymentKey": "PaymentKey field is required"
+  },
+  "landingPage": {
+    "instructionsHeader": {
+      "title": "INSTRUCTIONS",
+      "subTitle": "How To Use TMG E-Services Platform",
+      "desc": "Our instructional video provides a step-by-step guide on how to use TMG's E-Services platform. The video covers everything from adding and managing units to submitting and tracking service requests."
+    },
+    "howItWorksHeader": {
+      "title": "HOW IT WORKS",
+      "subTitle": "Check Our Instructional Videos For Each Step",
+      "desc": "Our instructional video provides a step-by-step guide on how to use TMG's E-Services platform."
+    },
+    "ourservicesHeader": {
+      "title": "OUR E-SERVICES",
+      "subTitle": "Manage Your Home With Ease",
+      "desc": "Our instructional video provides a step-by-step guide on how to use TMG's E-Services platform. The video covers everything from adding and managing units to submitting and tracking service requests. Whether you're a new user or just need a refresher, our video makes it easy to get started with our E-Services platform."
+    },
+    "carouselData": {
+      "subTitle": "OUR PROJECTS",
+      "title": "Noor - A New Dawn In Modern Living",
+      "desc": "Noor is a modern residential project by TMG that offers a new standard of living in the heart of Egypt's key cities. With a focus on community development, Noor provides a range of housing options that cater to the needs of different lifestyles and preferences. From spacious apartments to cozy studios, Noor offers a variety of options to suit your needs.",
+      "loadingBtn": "Learn More about Noor"
+    },
+    "FAQSHeader": {
+      "title": "FAQS",
+      "subTitle": "Frequently Asked Questions",
+      "desc": "Our instructional video provides a step-by-step guide on how to use TMG's E-Services platform. The video covers everything from adding and managing units to submitting and tracking service requests. Whether you're a new user or just need a refresher, our video makes it easy to get started with our E-Services platform."
+    },
+    "moreHelp": {
+      "title": "More Help ?",
+      "desc": "Users can manage their personal details, view their service history, and update their account settings.Our instructional video provides a step-by-step guide on how to use TMG’s E-Services platform. The video covers everything from adding and managing units to submitting and tracking service requests.",
+      "btnLabel": "Details"
+    }
+  },
+  "dashboard": {
+    "myUnits": "My Units",
+    "quickInfo": "Quick Info",
+    "submitted": "Submitted",
+    "notfications": "Notfications",
+    "ourServices": "Our Services",
+    "moreDetails": "More Details",
+    "addNewUnit": "Add New Unit",
+    "addNewUnit_B": "Easily add your unit and give it a name to bookmark it",
+    "noActions": "No Actions",
+    "next": "Next",
+    "payNow": "Pay Now",
+    "printReceit": "Print Receit",
+    "allUnits_B": "Check all units you have and filter with quick actions",
+    "allUnits": "All Units"
+  },
+  "addUnit": {
+    "addNewUnit": "Add New Unit",
+    "unitRequest": "Unit Request",
+    "editUnit": "Edit Your Unit",
+    "unitType": "Unit Type",
+    "unit": "Unit Type",
+    "type": "Type",
+    "description": "Description",
+    "file": "File",
+    "uploadFile": "Upload",
+    "viewFile": "View File",
+    "viewFiles": "View Files",
+    "addAttachment": "Attach Documents to Verify",
+    "successSummary": "Success",
+    "errorSummary": "Error",
+    "addedSuccessfully": "Unit Added Successfully",
+    "editSuccessfully": "Unit Edited Successfully",
+    "failedToAdd": "Failed to Add Unit",
+    "invalidUnitId": "Invalid unit id",
+    "failedToEdit": "Failed to Edit Unit",
+    "unitContract": {
+      "label": "Unit Contract",
+      "desc": "Scan The Full Contract And Attach A One Pdf File"
+    },
+    "attorney": {
+      "label": "Attorney",
+      "desc": "Scan The Full Contract And Attach A One Pdf File"
+    },
+    "unitReservation": {
+      "label": "Unit Reservation",
+      "desc": "Scan The Full Contract And Attach A One Pdf File"
+    },
+    "otherFiles": {
+      "label": "Other Files",
+      "desc": "check The Required attachments"
+    },
+    "attach": "Attach",
+    "error": {
+      "1": "Unit already exist",
+      "updateData": "Please update required file"
+    },
+    "close": "Close",
+    "requiredAttachment": "Required Attachments",
+    "checkRequiredAttachments": "Check Required Attachments",
+    "filesMaximumLength": "Not allowed To upload more than 10 files"
+  },
+  "unitDetails": {
+    "unitType": "Unit Type",
+    "personalInfo": "Personal Info",
+    "group": "Group",
+    "building": "Building",
+    "unit": "Unit",
+    "seeMore": "See More",
+    "seeLess": "See less",
+    "status": "Status",
+    "delivered": "Delivered",
+    "allUnits": "All Units",
+    "downloadModel": "Download Brochure",
+    "legalStatus": "Legal Status",
+    "reservationDate": "Reservation date",
+    "contractNumber": "Contract Number",
+    "offerNumber": "Offer Number",
+    "unitSize": "Unit Size",
+    "gardenSize": "Garden Size",
+    "clubValue": "Club Value",
+    "unitValue": "Unit Value",
+    "contractStatus": "Contract Status",
+    "contractDeliveryDate": "Contract Delivery Date",
+    "overduePayment": "Overdue Payment",
+    "totalPenalty": "Total Penalty",
+    "totalPaidAmount": "Total Paid Amount",
+    "remainingAmount": "Remaining Amount",
+    "upcomingInstallments": "Upcoming Installments",
+    "totalAmount": "Total Amount",
+    "overdueForBounced": "Total Overdue For Bounced Checks",
+    "penaltyForBounced": "Total Penality For Bounced Checks",
+    "fullName": "Full Name",
+    "nameTip": "Create Request To Change Your Name",
+    "address": "Address",
+    "addressTip": "Create Request To Change Your Address",
+    "idNumber": "ID Number / Passport",
+    "idNumberTip": "Create Request To Change Your ID Number / Passport",
+    "email": "Email Address",
+    "emailTip": "Create Request To Change Your Email Address",
+    "mobile": "Mobile",
+    "mobileTip": "Create Request To Change Your Mobile Number",
+    "occupation": "Occupation",
+    "maritalStatus": "Marital Status",
+    "numberOfChildren": "Number of Children",
+    "successEditPersonalInfo": "Personal Info Edited Successfully",
+    "emptyTable": "No Data Available",
+    "payNow": "Pay Now",
+    "unitOverDuePayment": {
+      "overduePaymentTitle": "Overdue Payments",
+      "DueDate": "Due Date",
+      "PaymentType": "Payment Type",
+      "RemainingAmount": "Remaining Amount",
+      "PenaltyAmount": "Penalty Amount",
+      "TotalAmount": "Total Amount",
+      "bankCharge": "Bank Charge",
+      "status": "Status"
+    },
+    "unitDuePayment": {
+      "duePaymentTitle": "UpComing Payment",
+      "DueDate": "Due Date",
+      "PaymentType": "Payment Type",
+      "RemainingAmount": "Remaining Amount",
+      "TotalAmount": "Total Amount"
+    },
+    "unitStatement": {
+      "statementHeaderTitle": "Statements Receipts",
+      "downloadStatement": "DownLoad Statements",
+      "DueDate": "Due Date",
+      "InstallmentType": "Installment Type",
+      "Description": "Description",
+      "Amount": "Amount",
+      "PaidAmount": "Paid Amount",
+      "RemainingAmount": "Remaining Amount",
+      "PenaltyAmount": "Penalty Amount",
+      "Status": "Status"
+    },
+    "dueDate": "Due Date",
+    "checkNumber": "Check Number",
+    "amount": "Amount"
+  },
+  "profile": {
+    "Verify": "Verify",
+    "editYourProfile": "Edit Your Profile",
+    "changePassword": "Change Password",
+    "passwordTilte": "Password",
+    "notifications": "Notifications",
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "confirmNewPass": "Confirm New Password",
+    "myDetails": "My Details",
+    "userName": "User Name",
+    "email": "Email Address",
+    "IDType": "ID Type",
+    "IDNumber": "ID Number",
+    "passport": "Passport ID",
+    "FrontScreen": "ID Front Screen",
+    "BackScreen": "ID Back Screen",
+    "IdentityVerification": "Identity Verification",
+    "NationalIDAttach": "National ID Attachment",
+    "mobileNumber": "Mobile Number",
+    "address": "Address",
+    "jobTitle": "Job Title",
+    "btnCancel": "Cancel",
+    "btnSave": "Save",
+    "unitDetails": "Unit Details",
+    "building": "Building",
+    "floor": "Floor",
+    "flat": "Flat",
+    "country": "Country",
+    "payment": "Payment",
+    "visa": "Visa",
+    "profileTitle": "Profile"
+  },
+  "requestDetails": {
+    "EGP": "EGP",
+    "requestFees": "Request Fees",
+    "requestDetails": "Request Details",
+    "clearanceAttach": "Clearance Attachment",
+    "maintenancePayment": "Maintenance Payment",
+    "downPayment": "Down Payment",
+    "attachmentReceipt": "Attachment Receipt",
+    "maintenanceBtn": "Pay MDP on City Pay",
+    "requestNo": "Request No.",
+    "requestDate": "Request Date",
+    "ownerDegree": "Owner Degree",
+    "degreeType": "Degree Type",
+    "creationDate": "Creation Date",
+    "requestType": "Request Type",
+    "requestBranch": "Branch",
+    "targetBranch": "Target Branch",
+    "sourceBranch": "Source Branch",
+    "name": "Name",
+    "requestAppointment": "Appointment",
+    "payment": "Payment",
+    "newName": "New Name",
+    "newAddress": "New Address",
+    "newMobile": "New Mobile",
+    "newNationalId": "New National Id",
+    "nationalId": "National Id",
+    "newPeriod": "New Period",
+    "budget": "Budget",
+    "onlinePaymkent": "Online Paymkent",
+    "note": "Note",
+    "note_b": "I need to delay my installments for 3 years, how can I do that?",
+    "personalDetails": "Personal Details",
+    "ownerName": "Owner Name",
+    "phoneNumber": "Phone Number",
+    "emailAddress": "Email Address",
+    "location": "Location",
+    "unitDetails": "Unit Details",
+    "project": "Project",
+    "groupNo": "Group No.",
+    "buildingNo": "Building No.",
+    "unitNo": "Unit No.",
+    "unitType": "UnitType",
+    "adminRespond": "Admin Respond",
+    "customerRespond": "Your Respond",
+    "requestRespond": "Request Respond",
+    "addYourRespond": "Add Your Respond",
+    "btnSend": "SEND",
+    "chequeNumber": "Cheque Number",
+    "paymentKey": "Payment Key",
+    "dueDate": "Due Date",
+    "condType": "Condition Type",
+    "totalAmount": "Total Amount",
+    "remainingAmount": "Remaining Amount",
+    "penaltyAmount": "Penalty Amount",
+    "BankCharge": "Bank Charge",
+    "reasonId": "Reason",
+    "discountAmount": "Discount Amount",
+    "appointmentRefund": "Appointment for Refund",
+    "requestDiscount": "Request Discount"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subTitle": "We Do Things Differently",
+    "desc": "Our instructional video provides a step-by-step guide on how to use TMG's E-Services platform.",
+    "tabview": {
+      "cancellation": "Cancellation",
+      "contract": "Contract",
+      "deliverables": "Deliverables",
+      "collections": "Collections",
+      "waiver": "Waiver",
+      "transfer": "Transfer",
+      "paymentSystem": "Payment system",
+      "onlineBanking": "Online banking",
+      "checks": "Checks",
+      "departments": "Departments"
+    },
+    "HowItWorksDetailsAndInfo": {
+      "title": "Details & Information"
+    }
+  },
+  "about": {
+    "tittle": "ABOUT US",
+    "sub": "Learn More About Tmg E-Services",
+    "heroParagraph": "Our instructional video provides a step-by-step guide on how to use TMG's E-Services platform.",
+    "tittle2": "ABOUT TALAAT MOUSTAFA GROUP",
+    "tittle3": "About Talaat Moustafa Group",
+    "par2-mob": "Talaat Moustafa Group (TMG), a leading conglomerate with a special emphasis on real",
+    "Aboutpar": "Talaat Moustafa Group (TMG), a leading conglomerate with a special emphasis on real estate development, and an outstanding track record of creating large, vibrant, and diverse communities and hospitality developments, providing high-quality experiences accompanied by superb amenities, with over 50 Years of experience.\n\n TMG stands today as an industry giant that presents world-class developments across all real estate asset classes.\n\n Driven by a sharp vision and a unique philosophy, TMG has shaped the urban landscape by developing insignificant, self-sustained cities & communities, and an array of residential, commercial, and hospitality projects nationwide.\n\nTMG excels at creating a unique template for community living and is dedicated to maintaining the highest quality of standards while continually striving to lead a new future-proof way of life with people at its core.",
+    "showButton": "Show More",
+    "learnButton": "Learn More",
+    "m-v": "MISSION & VISION"
+  },
+  "contact_us": {
+    "hero": {
+      "title": "INFORMATION",
+      "subTitle": "Contact Information",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque elit non lectus dignissim,",
+      "contact_btn": "Contact Us"
+    },
+    "form": {
+      "title": "Saudi Arabia Project",
+      "subTitle": "Send Message",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque elit non lectus dignissim",
+      "joinUs": "Join Us"
+    },
+    "details": {
+      "phoneNumber": "Phone Number",
+      "email": "Email Addres",
+      "location": "Location",
+      "workingHours": "Working Hours",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "contactInfo": "Contact Information"
+    }
+  },
+  "login-layout": {
+    "login": {
+      "info": "Info",
+      "verify": "Verify",
+      "emailAddress": "Email Address",
+      "login": "Login",
+      "Login": "LOGIN",
+      "haveAccount": "Haven’t an Account?",
+      "registerHeader": "Create an Account",
+      "register": "Register",
+      "mobile": "Mobile Number",
+      "userName": "Email",
+      "password": "Password",
+      "forgetPassword": "Forget Your Password",
+      "successLogin": "Success Login"
+    },
+    "register": {
+      "idType": "ID Type",
+      "idNumber": "ID Number",
+      "frontScreen": "Front Screen",
+      "backScreen": "Back Screen",
+      "passportScreen": "Passport Screen",
+      "login": "Login",
+      "register": "Register",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "password": "Password",
+      "uploadMessage": "No file uploaded yet.",
+      "repeatPass": "Repeat Password",
+      "terms": "Agree to terms & conditions",
+      "account": "Already have an account?",
+      "mobileTip": "The mobile number provided must match the one registered in the system",
+      "nationalIdTip": "The National Id Or Passport Id  provided must match the one registered in the system"
+    },
+    "forget-password": {
+      "forget-password": "Forget Your Password",
+      "reset": "Reset Password",
+      "back": "Back To Login",
+      "success-message": "We just sent a code to your phone number"
+    },
+    "reset-password": {
+      "newPass": "New Password",
+      "repeatPass": "Repeat Password",
+      "message": "Your Password Change Successfully"
+    },
+    "check-mail": {
+      "title": "Check Your Mail",
+      "verfication": "A Verification Email sent to",
+      "confirm": "please confirm your email and login again",
+      "resend": "Resend",
+      "mail-resent": "Verification mail resent"
+    },
+    "otp": {
+      "title": "Verify Phone",
+      "subtitle": "Code sent to",
+      "resend-msg": "Didn't recieve code? resend new one in",
+      "verify-btn": "Verify",
+      "resend-btn": "Resend Verification Code",
+      "wrong-otp": "Wrong OTP",
+      "request-error": "Request Error",
+      "token": "Code expired",
+      "register": "User registered successfully",
+      "enter-otp": "Please enter code"
+    }
+  },
+  "not-found": {
+    "title": "This Page Could Not Be Found",
+    "subtitle": "Sorry but the page you are looking for does not exist, have been removed, name changed or it's temporarily unavailable",
+    "button": "Go To Home"
+  },
+  "admin-layout": {
+    "agree": "Agree",
+    "header": {
+      "pages": "pages",
+      "home": "Home",
+      "paymentHistory": "Payment History",
+      "requests": "Requests",
+      "myUnits": "My Units",
+      "projects": "Projects",
+      "logout": "Logout",
+      "login": "Login",
+      "profile": "Profile",
+      "faqs": "FAQS",
+      "language": "عربي",
+      "howItWorks": "How it works",
+      "about": "About",
+      "createAccount": "Create Account",
+      "dashboard": "Dashboard"
+    },
+    "footer": {
+      "ourServices": {
+        "ourServices": "Our Services",
+        "myUnits": "My Units",
+        "addYourUnit": "Add Your Unit",
+        "myRequests": "My Requests",
+        "paymentHistory": "Payment History"
+      },
+      "paymentMethods": {
+        "paymentMethods": "Payment Methods"
+      },
+      "needHelp": {
+        "needHelp": "Need Help?",
+        "callMe": "Call Me"
+      },
+      "social": {
+        "social": "Contact",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "linkedin": "Linkedin",
+        "youtube": "Youtube",
+        "twitter": "Twitter"
+      },
+      "copyRights": {
+        "rights": "Talaat Moustafa Group Copyrights - All rights reserved",
+        "terms": "Terms & Conditions",
+        "privacy": "Privacy policy"
+      }
+    }
+  },
+  "pages": {
+    "requests": {
+      "errors": {
+        "1": "This Request Already Exists"
+      },
+      "tittle": "Request",
+      "tittle2": "Requests History",
+      "requestHistory": {
+        "RequestId": "Request Id",
+        "RequestType": "Request Type",
+        "GroupNo": "Group No",
+        "BuildingNo": "Building No",
+        "UnitNo": "Unit No",
+        "Status": "Status",
+        "MoreDetails": "MORE DETAILS"
+      },
+      "reason": "Reason",
+      "requestForms": {
+        "keepClub": "Keep Club Partnership",
+        "AgreeToConditions": "Agree to terms & conditions",
+        "refundType": "Refund Type",
+        "cancellationType": "Cancellation Type",
+        "selectUnit": "Select Unit",
+        "selectUnitId": "Select UnitId",
+        "ReqType": "Request Type",
+        "RequestTypePlaceHolder": "Request Type",
+        "Select": "Select",
+        "salesAppointment": "Sales Appointment",
+        "signAppointment": "Sign Appointment ",
+        "appointmentForPayment": "Appointment For Payment",
+        "changePaymentFor": "Change Payment For",
+        "SelectBranch": "Select Branch",
+        "SelectPayment": "Select Payment",
+        "selectCheckNum": "Select Check Number",
+        "Attachments": "Attachment",
+        "PaymentReceipt": "Payment Receipt",
+        "Selectreason": "Select Reason",
+        "addAttorney": "Add Attorney",
+        "addContract": "Add Contract",
+        "submit": "SUBMIT",
+        "resubmit": "RE-SUBMIT",
+        "draft": "Please visit one of TMG Branches to update your information.",
+        "contract": "Contract",
+        "nationalId": "National Id"
+      }
+    }
+  },
+  "reusable-components": {
+    "currency": "Egp",
+    "close": "Close",
+    "bank": {
+      "cancel": "Cancel",
+      "title": "Are you sure?",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "cities": {
+      "M": "Madinaty",
+      "R": "Al Rehab City",
+      "O": "Privado",
+      "C": "Celia",
+      "H": "Noor"
+    },
+    "unit-type": {
+      "1": "Villa",
+      "2": "Apartment"
+    },
+    "Id-type": {
+      "national-id": "National ID",
+      "passport": "Passport"
+    },
+    "back-btn": "Back",
+    "select-unit": {
+      "buildingNo-input-label": "Building"
+    },
+    "pay-amount": {
+      "total-label": "Total Amount",
+      "partial-label": "Partial Amount"
+    },
+    "unit-info": {
+      "group": "Group",
+      "building": "Building",
+      "unit": "Unit",
+      "unit-type": "Unit Type"
+    },
+    "due-payment": {
+      "pay-btn": "Pay Now",
+      "maintenance": "Maintenance Due",
+      "utilities": "Utilities Fees",
+      "noPayment-maintenance": "No Maintenance Due Found",
+      "noPayment-utilities": "No Utilities Due Found",
+      "min-value-msg": "Minimum payment amount is ",
+      "max-value-msg": "Maximum payment amount is ",
+      "till-year-maint": " Till year ",
+      "till-year-util": " Till date "
+    },
+    "receipt": {
+      "title": "Online Receipt",
+      "project": "for Real estate project Management",
+      "stock": "Egyptian Joint Stock Company",
+      "paymentReceipt": "Payment Receipt",
+      "titleName": "The above amount is received from Mr./Mrs.:",
+      "customerNum": "Customer Number:",
+      "pound": "Pound",
+      "penny": "Penny",
+      "amount": "Amount",
+      "only": "Only",
+      "paidFor": "The amount is paid for",
+      "paymentDate": "Payment Date"
+    }
+  },
+  "popups": {
+    "successfull": {
+      "request": "Request Id",
+      "title": "Your request has been successfully submitted",
+      "expected-days": "will be executed within",
+      "days": "working days",
+      "check": "Check my Request Status",
+      "draft": "Please visit one of TMG Branches to update your information."
+    },
+    "payment": {
+      "title": "Payment",
+      "subtitle": "Pay your amount due through your payment method of choice here",
+      "pay-title": "Supported Payment Methods",
+      "pay-btn": "Pay"
+    },
+    "procced": {
+      "title-early": "Early Discount",
+      "title": "Penalty Discount Request",
+      "title_p": "You can get this discount if you paid this amount now",
+      "penaltyAmount": "Total Amount",
+      "discountAmount": "Discount Amount",
+      "netAmount": "Net Amount",
+      "discounted": "Discount applied"
+    }
+  },
+  "errors": {
+    "login": {
+      "1": "Wrong password",
+      "2": "Wrong phone number",
+      "3": "User not verfied"
+    },
+    "register": {
+      "1": "Mobile already exist",
+      "2": "User already exist",
+      "3": "Bad Request"
+    },
+    "forget-password": {
+      "1": "User doesn't exist"
+    },
+    "change-password": {
+      "1": "Token expired",
+      "2": "Not Matched"
+    }
+  },
+  "back": "Back"
+}
